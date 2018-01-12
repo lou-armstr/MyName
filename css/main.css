@@ -1,0 +1,226 @@
+body {
+    font-family: Tahoma, Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+    text-transform: uppercase;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+ul,
+li {
+    text-decoration: none;
+    display: block;
+}
+
+section {
+    padding: 3.2em 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #4e8598;
+    color: #fff;
+    text-align: center;
+    padding: 3.2em 0;
+}
+
+.offer {
+    text-align: center;
+    margin: 180px 0;
+}
+
+.offer__title {
+    font-size: 27px;
+    width: 607px;
+    margin: 0 auto;
+}
+
+.btn {
+    width: 215px;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 17px 0;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    margin: 25px auto 0;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #4e8598;
+}
+
+/*-------2nd section---------*/
+.about {
+    display: flex;
+    justify-content: space-around;
+}
+
+.mission,
+.merit {
+    margin: 75px 0;
+    text-align: left;
+}
+.merit__title {
+    margin-left: 42px;
+}
+.both {
+    text-align: left;
+    font-size: 22px;
+}
+/* blue line under titles*/
+.both:after {
+    content: '';
+    display: block;
+    width: 72px;
+    height: 3px;
+    margin-top: 5px;
+    background-color: #4e8598;
+}
+
+.mission__desc {
+    width: 400px;
+    font-size: 15px;
+    line-height: 1.5em;
+    margin-top: 28px;
+}
+
+.honors__item {
+    padding: 25px 0 25px 60px;
+    text-align: center;
+}
+.honors__item_bug {
+    background: url(../img/bug.png) no-repeat left center;
+    padding-left: 33px;
+}
+.honors__item_bell {
+    background: url(../img/bell.png) no-repeat 2px center;
+}
+.honors__item_flash {
+    background: url(../img/storm.png) no-repeat 11px center;
+}
+.honors__item_photo {
+    background: url(../img/camera.png) no-repeat 3px center;
+    padding-left: 30px;
+}
+.honors__title {
+    font-size: 16px;
+    color: #4e8598;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+.honors__intro {
+    font-size: 15px;
+    color: #2f383b;
+}
+/*--------3d section----------*/
+
+.feature__number {
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid #2f383b;
+    border-radius: 100px;
+    height: 75px;
+    width: 75px;
+    display: block;
+    box-sizing: border-box;
+    padding: 17px;
+    margin-bottom: 20px;
+}
+.feature__number:hover {
+    background-color: #2f383b;
+    color: #fff;
+}
+/*-----2nd circle dark-----*/
+.diff {
+    background-color: #2f383b;
+    color: #fff;
+}
+.diff:hover {
+    color: #2f383b;
+    background-color: #fff;
+}
+.feature__characteristic {
+    font-size: 16px;
+    font-weight: bold;
+}
+.feature {
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 0;
+    align-items: center;
+}
+
+.feature li {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.need {
+    text-align: center;
+}
+.need_title {
+    font-size: 22px;
+}
+.need_cause {
+    font-size: 14px;
+    width: 400px;
+    text-align: center;
+    margin: 30px auto;
+    
+}
+.need__btn {
+    background-color: #2f383b;
+}
+.need__btn:hover {
+    color: #2f383b;
+    border: 1px solid #2f383b;
+}
+
+/*-------footer------finaly-----*/
+.footer {
+    background-color: #2f383b;
+}
+.rights {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-size: 13px;
+    padding: 45px 0;
+}
+.rights p {
+    opacity: .7;
+    margin: 0 25px 0;
+}
+.footer__conf {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 1px dotted #fff;
+    padding-bottom: 3px;
+}
